@@ -1,0 +1,11 @@
+.navLink {
+  text-decoration: none;
+  color: var(--mantine-color-text);
+  transition: 150ms ease-in-out;
+  font-weight: 500;
+}
+
+.navLink:hover,
+.navLinkActive {
+  color: var(--mantine-color-teal-6);
+}
